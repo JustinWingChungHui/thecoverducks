@@ -355,8 +355,7 @@ img {
   padding: 0 30px;
   font-size: 16px;
   line-height: 47px;
-  font-weight: 700;
-  text-transform: capitalize; }
+  font-weight: 700; }
   .oneMusic-btn i {
     margin-left: 5px; }
   .oneMusic-btn:hover, .oneMusic-btn:focus {
@@ -398,7 +397,6 @@ img {
           height: 70px; } }
       .header-area .oneMusic-main-menu .classy-navbar .classynav ul li a {
         font-weight: 700;
-        text-transform: capitalize;
         color: #ffffff;
         font-size: 16px; }
         .header-area .oneMusic-main-menu .classy-navbar .classynav ul li a:hover, .header-area .oneMusic-main-menu .classy-navbar .classynav ul li a:focus {
@@ -580,8 +578,7 @@ img {
     .single-hero-slide .hero-slides-content h6 {
       font-size: 18px;
       color: #fff;
-      letter-spacing: 20px;
-      text-transform: uppercase;
+      letter-spacing: 1px;
       margin-bottom: 20px;
       display: block; }
       @media only screen and (max-width: 767px) {
@@ -590,13 +587,12 @@ img {
     .single-hero-slide .hero-slides-content h2 {
       position: relative;
       z-index: 1;
-      font-size: 60px;
+      font-size: 70px;
       color: #ffffff;
       margin-bottom: 0;
       font-weight: 400;
       display: block;
-      text-transform: capitalize;
-      letter-spacing: 30px;
+      letter-spacing: 2px;
       overflow: hidden; }
       .single-hero-slide .hero-slides-content h2 span {
         position: absolute;
@@ -1557,7 +1553,6 @@ img {
     padding: 20px 70px 20px 30px;
     position: relative;
     font-size: 14px;
-    text-transform: capitalize;
     border: 1px solid #000000; }
     .single-accordion h6 a span {
       background: transparent;
