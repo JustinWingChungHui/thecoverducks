@@ -1647,3 +1647,10 @@ img {
 /* ====== The End ====== */
 
 /*# sourceMappingURL=style.css.map */
+
+.small-logo-centred {
+  height: 151px !important;
+  width: 400px !important;
+  margin-left: auto;
+  margin-right: auto;
+}

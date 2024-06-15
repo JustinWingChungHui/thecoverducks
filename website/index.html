@@ -17,6 +17,11 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
 
+    <!-- Photoswipe js -->
+    <script src="js/photoswipe/photoswipe.umd.min.js"></script>
+    <script src="js/photoswipe/photoswipe-lightbox.umd.min.js"></script>
+    <link rel="stylesheet" href="./css/photoswipe.css">
+
 </head>
 
 <body>
@@ -39,7 +44,7 @@
                         <nav class="classy-navbar justify-content-between" id="oneMusicNav">
     
                             <!-- Nav brand -->
-                            <a href="#top" class="nav-brand"><img src="img/logo/logo-small.png" alt=""></a>
+                            <a href="#top" class="nav-brand"><img src="img/logo/logo-small.png" alt="The Cover Ducks logo"></a>
     
                             <!-- Navbar Toggler -->
                             <div class="classy-navbar-toggler">
@@ -58,7 +63,7 @@
                             <div class="classynav">
                                 <ul>
                                     <li><a href="#top">Home</a></li>
-                                    <li><a href="#discover">Discover</a></li>
+                                    <li><a href="#about">About</a></li>
                                     <li><a href="#setlist">Setlist</a></li>
                                     <li><a href="https://www.facebook.com/TheCoverDucks">Facebook</a></li>
                                     <li><a href="https://www.instagram.com/thecoverducks">Instagram</a></li>
@@ -81,15 +86,17 @@
             <!-- Single Hero Slide -->
             <div class="single-hero-slide d-flex align-items-center justify-content-center">
                 <!-- Slide Img -->
-                <div class="slide-img bg-img" style="background-image: url(img/slideshow/band1.jpg);"></div>
+                <div class="slide-img bg-img" style="background-image: url(img/slideshow/kid_band.jpg);"></div>
                 <!-- Slide Content -->
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
                             <div class="hero-slides-content text-center">
-                                <h2 data-animation="fadeInUp" data-delay="300ms">the cover ducks <span>the cover ducks</span></h2>
-                                <h6 data-animation="fadeInUp" data-delay="300ms">midlands function band</h6>
-                                <a data-animation="fadeInUp" data-delay="500ms" href="#discover" class="btn oneMusic-btn mt-50">Discover <i class="fa fa-angle-double-right"></i></a>
+                                <div data-animation="fadeInUp" data-delay="300ms">
+                                    <img class="small-logo-centred" src="img/logo/logo-small.png" alt="The Cover Ducks logo">
+                                </div>
+                                <h6 data-animation="fadeInUp" data-delay="300ms">female fronted midlands covers band</h6>
+                                <a data-animation="fadeInUp" data-delay="500ms" href="#about" class="btn oneMusic-btn mt-50">About <i class="fa fa-angle-double-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -98,16 +105,34 @@
 
             <!-- Single Hero Slide -->
             <div class="single-hero-slide d-flex align-items-center justify-content-center">
-                <!-- Slide Img -->
-                <div class="slide-img bg-img" style="background-image: url(img/slideshow/band2.jpg);"></div>
-                <!-- Slide Content -->
+                <div class="slide-img bg-img" style="background-image: url(img/slideshow/kid_grace_kirsty.jpg);"></div>
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
                             <div class="hero-slides-content text-center">
-                                <h2 data-animation="fadeInUp" data-delay="300ms">the cover ducks <span>the cover ducks</span></h2>
-                                <h6 data-animation="fadeInUp" data-delay="300ms">midlands function band</h6>
-                                <a data-animation="fadeInUp" data-delay="500ms" href="#discover" class="btn oneMusic-btn mt-50">Discover <i class="fa fa-angle-double-right"></i></a>
+                                <div data-animation="fadeInUp" data-delay="300ms">
+                                    <img class="small-logo-centred" src="img/logo/logo-small.png" alt="The Cover Ducks logo">
+                                </div>
+                                <h6 data-animation="fadeInUp" data-delay="300ms">female fronted midlands covers band</h6>
+                                <a data-animation="fadeInUp" data-delay="500ms" href="#setlist" class="btn oneMusic-btn mt-50">Setlist <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide d-flex align-items-center justify-content-center">
+                <div class="slide-img bg-img" style="background-image: url(img/slideshow/kid_justin_grace.jpg);"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="hero-slides-content text-center">
+                                <div data-animation="fadeInUp" data-delay="300ms">
+                                    <img class="small-logo-centred" src="img/logo/logo-small.png" alt="The Cover Ducks logo">
+                                </div>
+                                <h6 data-animation="fadeInUp" data-delay="300ms">female fronted midlands covers band</h6>
+                                <a data-animation="fadeInUp" data-delay="500ms" href="#contact" class="btn oneMusic-btn mt-50">Contact <i class="fa fa-angle-double-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -117,13 +142,13 @@
     </section>
     <!-- ##### Hero Area End ##### -->
 
-    <!-- ##### Watch start ##### -->
-    <section id="discover" class="watch section-padding-100">
+    <!-- ##### about start ##### -->
+    <section id="about" class="watch section-padding-100">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="section-heading style-2">
-                        <h2>Discover</h2>
+                        <h2>About</h2>
                     </div>
                 </div>
             </div>
@@ -147,10 +172,95 @@
             </div>
         </div>
     </section>
-    <!-- ##### Watch End ##### -->
+    <!-- ##### about End ##### -->
+
+    <!-- ##### setlist start ##### -->
+    <section id="setlist" class="section-padding-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading style-2">
+                        <h2>Setlist</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-9">
+                    <div class="text-center mb-70">
+                       <ul>
+                            <li>Shut Up And Dance - Walk The Moon</li>
+                            <li>I Kissed a Girl - Katy Perry</li>
+                            <li>Locked Out of Heaven - Bruno Mars</li>
+                            <li>Murder on the Dancefloor - Sophie Ellis Bextor</li>
+                            <li>Raise Your Glass - Pink</li>
+                            <li>About Damn Time - Lizzo</li>
+
+                            <li>500 Miles - The Proclaimers</li>
+                            <li>Black Velvet - Alannah Miles</li>
+                            <li>One Of Us - Joan Osborne</li>
+
+                            
+                            <li>Summer of 69 - Bryan Adams</li>
+                            <li>Crazy Crazy Nights - Kiss</li>
+                            <li>Shook Me All Night Long - AC/DC</li>
+                            <li>Too Much Too Young - The Specials</li>
+                            <li>On My Radio - The Selector</li>                           
+                            <li>9 to 5 - Dolly Parton</li>
+                            <li>I Want to Break Free - Queen</li>
+
+                            <li>Fat Bottomed Girls - Queen</li>
+                            <li>One Way or Another - Blondie</li>
+                            <li>Heart of Glass - Blondie</li>
+                            
+                            <li>I Love Rock 'n' Roll - Joan Jett</li>
+                            <li>Since You've Been Gone - Rainbow</li>
+                            <li>Everywhere - Fleetwood Mac</li>
+                            <li>The Chain - Fleetwood Mac</li>                           
+                            <li>Dreams - Fleetwood Mac</li>
+                            <li>Proud Mary - Tina Turner</li>
+                            <li>Sweet Caroline - Neil Diamond</li>
+                            <li>Long Train Running - The Doobie Brothers</li>
+                            <li>Play That Funky Music - Wild Cherry</li>
+                            <li>All Right Now - Free</li>
+
+                            <li><strong>And many more!</strong></li>
+                       </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### setlist End ##### -->
+
+    <!-- ##### Photos Area Start ##### -->
+    <section id="photos" class="section-padding-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading style-2">
+                        <h2>Photos</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-9 pswp-gallery" id="my-gallery">
+                    <a href="./img/slideshow/kid_band.jpg"  data-pswp-width="204" data-pswp-height="136" target="_blank">
+                        <img src="./img/slideshow/kid_band.jpg" />
+                    </a>
+                    <a href="./img/slideshow/kid_grace_kirsty.jpg"  data-pswp-width="204" data-pswp-height="136" target="_blank">
+                        <img src="./img/slideshow/kid_grace_kirsty.jpg" />
+                    </a>
+                    <a href="./img/slideshow/kid_justin_grace.jpg"  data-pswp-width="204" data-pswp-height="136" target="_blank">
+                        <img src="./img/slideshow/kid_justin_grace.jpg" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Photos Area End ##### -->
 
     <!-- ##### Contact Area Start ##### -->
-    <section id="contact" class="contact-area section-padding-100 bg-img bg-overlay bg-fixed has-bg-img mb-100" style="background-image: url(img/bg-img/bg-2.jpg);">
+    <section id="contact" class="contact-area section-padding-100 bg-img bg-overlay bg-fixed has-bg-img mb-100" style="background-image: url(img/slideshow/kid_band.jpg);">
         <div class="container">
             <div class="row"> 
                 <div class="col-12">
@@ -193,6 +303,7 @@
     <script src="js/plugins/plugins.js"></script>
     <!-- Active js -->
     <script src="js/active.js"></script>
+    <script src="js/photos.js"></script>
 </body>
 
 </html>
