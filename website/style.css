@@ -1649,8 +1649,14 @@ img {
 /*# sourceMappingURL=style.css.map */
 
 .small-logo-centred {
-  height: 151px !important;
-  width: 400px !important;
+  height: auto !important;
+  width: 50% !important;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media only screen and (max-width: 800px) {
+  #my-gallery img {
+    max-width: 150px !important;
+  }
 }
